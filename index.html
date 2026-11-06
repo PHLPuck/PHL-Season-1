@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>League Statistics</title>
+    <style>
+        body {
+            background: #0d0d0d;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+        }
+        h1 {
+            text-align: center;
+            border: 2px solid #d4a017;
+            padding: 15px;
+            border-radius: 10px;
+            max-width: 400px;
+            margin: 0 auto 20px;
+        }
+        .stats-table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #1a1a1a;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .stats-table th {
+            text-align: left;
+            padding: 12px 8px;
+            color: #888;
+            font-size: 12px;
+            text-transform: uppercase;
+            border-bottom: 1px solid #333;
+        }
+        .stats-table td {
+            padding: 12px 8px;
+            border-bottom: 1px solid #2a2a2a;
+            font-size: 14px;
+        }
+        .rating { color: #4da6ff; font-weight: bold; }
+        .value { color: #4dff88; font-weight: bold; }
+        .team-gold { color: #d4a017; }
+        .team-purple { color: #b24dff; }
+        .team-cyan { color: #00e5ff; }
+    </style>
+</head>
+<body>
+
+<h1>LEAGUE STATISTICS</h1>
+
+<table class="stats-table">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>NAME</th>
+            <th>RATING</th>
+            <th>VALUE</th>
+            <th>TEAM</th>
+            <th>GP</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1.</td>
+            <td>Nonchalant Filip</td>
+            <td class="rating">84</td>
+            <td class="value">$19M</td>
+            <td>Free Agents</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>XNP</td>
+            <td class="rating">83</td>
+            <td class="value">$17.6M</td>
+            <td class="team-gold">Honey Badgers</td>
+            <td>16</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>fedya</td>
+            <td class="rating">84</td>
+            <td class="value">$19M</td>
+            <td class="team-purple">Synthwave</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>foxovich</td>
+            <td class="rating">80</td>
+            <td class="value">$14M</td>
+            <td class="team-cyan">Ice Creamers</td>
+            <td>13</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
